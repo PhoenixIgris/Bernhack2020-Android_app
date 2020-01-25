@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+ android:paddingTop="80dp"
+           >
+
+
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="128dp"
+                android:layout_height="73dp"
+                android:src="@drawable/bus"
+                android:layout_row="0"
+                android:layout_column="1"/>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+
+                    android:layout_gravity="left"
+                    android:text="Name: Lalitpur Yatayat" />
+
+                <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:text="Email:lalitpuryatayat@gmail.com" />
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:text="ContactNO:5646441" />
+        </GridLayout>
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:paddingTop="25dp"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="128dp"
+                android:layout_height="73dp"
+                android:src="@drawable/bus"
+                android:layout_row="0"
+                android:layout_column="1"/>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+
+                    android:layout_gravity="left"
+                    android:text="Name: Trisuli Yatayat" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:text="Email:trisuliyatayat@gmail.com" />
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:text="ContactNO:5646441" />
+            </GridLayout>
+
+        </GridLayout>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="128dp"
+            android:layout_height="73dp"
+            android:src="@drawable/bus"
+            android:layout_row="0"
+            android:layout_column="1"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+
+                android:layout_gravity="left"
+                android:text="Name: Narayani Yatayat" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:text="Email:narayaniyatayat@gmail.com" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:text="ContactNO:5646441" />
+        </GridLayout>
+    </GridLayout>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="128dp"
+            android:layout_height="73dp"
+            android:src="@drawable/bus"
+            android:layout_row="0"
+            android:layout_column="1"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+
+                android:layout_gravity="left"
+                android:text="Name: Rara Yatayat" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:text="Email:rarayatayat@gmail.com" />
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:text="ContactNO:5646441" />
+        </GridLayout>
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="128dp"
+            android:layout_height="73dp"
+            android:src="@drawable/bus"
+            android:layout_row="0"
+            android:layout_column="1"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+
+                android:layout_gravity="left"
+                android:text="Name: Koshi Yatayat" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:text="Email:koshiyatayat@gmail.com" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:text="ContactNO:5646441" />
+        </GridLayout>
+
+    </GridLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+</RelativeLayout>

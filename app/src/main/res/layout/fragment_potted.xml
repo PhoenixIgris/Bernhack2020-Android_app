@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Potted">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="268sp"
+            android:layout_height="281sp"
+            android:src="@drawable/mint"
+            android:layout_gravity="center"
+            android:contentDescription="image"
+         />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mint"
+            android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMATION:"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mint1"
+        android:layout_gravity="center"
+        android:contentDescription="image2"
+        />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mint2"
+        android:layout_gravity="center"
+        android:contentDescription="image2"
+        />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mint3"
+            android:layout_gravity="center"
+            android:contentDescription="image2"
+            />
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mint4"
+            android:layout_gravity="center"
+            android:contentDescription="image2"
+            />
+    </TableLayout>
+
+</ScrollView>
+
+
+
+</RelativeLayout>
